@@ -1,0 +1,6 @@
+history_mirror.csv
+mirror_error.csv
+users_with_hash.csv
+
+.venv
+.idea
