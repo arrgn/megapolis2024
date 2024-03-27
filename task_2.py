@@ -2,7 +2,6 @@ import csv
 
 with open('history_mirror.csv', mode='r', encoding='utf-8') as pin:
     reader = csv.reader(pin, delimiter=',')
-    fieldnames = next(reader)
     data = list(reader)
 
 for i in range(len(data), 0, -1):
